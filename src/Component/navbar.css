@@ -1,0 +1,1229 @@
+*{
+
+    list-style: none;
+    text-decoration: none;
+}
+
+.container1{
+
+    display: flex;
+    width: 70%;
+    height: 30px;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top:130px ;
+}
+
+.container1 li .li{
+
+    color:black;
+}
+.container1 li .li:hover{
+    background-color: rgb(81, 181, 81);
+padding: 10px;
+}
+
+.img1{
+    position: absolute;
+    margin-left:60px ;
+    margin-top: -100px;
+}
+.img1 img{
+    height: 100px;
+   width: 250px;
+}
+.FIT #fit{
+
+    width: 30px;
+    height: 20px;
+   
+}
+.FIT{
+       position: absolute;
+    margin-left: 180px;
+    margin-top: -19px;
+    display: flex;
+
+}
+.FIT #fit:hover{
+cursor: pointer;
+}
+
+.contact{
+    position: absolute;
+    margin-left: 990px;
+     margin-top: -90px;
+}
+
+.contact:hover{
+    cursor: pointer;
+
+}
+
+.bg_slider{
+
+    width: 100%;
+    height: 400px;
+    background-image: url("images/banner1.jpg");
+
+    animation: changeImage 17s linear infinite ;
+}
+  
+@keyframes changeImage{
+
+0%{
+
+background-image: url('images/banner1.jpg');
+}
+
+50%{
+    background-image: url('images/banner2.jpg');
+
+}
+
+75%{
+
+    background-image: url('images/banner3.jpg');
+}
+
+100%{
+    background-image: url('images/banner1.jpg');
+
+}
+}
+
+.btn{
+
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -42px;
+}
+
+.btn button:hover{
+   
+    color:cornflowerblue;
+    cursor: pointer;
+    transform: scale(0.5,0.5);
+
+}
+
+.btn button{
+    box-shadow:3px 3px 3px;
+    border-radius: 10px;
+    font-size: 17px;
+    width:200px ;
+    color: white;
+    border:1px solid black;
+    padding: 10px;
+    background-color: black;
+
+}
+.dropdown button{
+    position:sticky;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    width: 180px;
+    height:50px;
+    background-color: red;
+    /* transform: rotate(90deg); */
+   margin-left: 1110px;
+   margin-top: -390px;
+   
+}
+.dropdown button:hover{
+
+    cursor: pointer;
+    background-color: violet;
+  
+}
+
+
+.list{
+    /* margin-left: 20px; */
+    display: none;
+}
+
+.list .msg{
+    height: 40px;
+    text-align:unset;
+}
+.dropdown button:nth-child(1):hover .list{
+    border-radius: 10px;
+    background-color: black; 
+   margin-left: -40px;
+   color: white;
+    display: block;
+    transition: 3s;
+    padding: 10px;
+    margin-top: 25px;
+
+    /* transform: rotate(-98deg); */
+}
+.dropdowns{
+
+    margin-left: 200px;
+}
+
+.welcome h1{
+   color: rgb(133, 133, 223);
+    text-align: center;
+    word-spacing: 10px;
+    /* transition: 5s; */
+    /* transform: translateY(20px); */
+}
+.welcome p{
+      width: 1000px;
+    word-spacing: 3px;
+    line-height: 25px;
+ text-align: center;
+ margin-left: 180px;
+}
+
+.grid{
+    margin-top: 20px;
+    background-color: rgb(36, 36, 128);
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+}
+
+.grid p{
+    color: aliceblue;
+    line-height: 20px;
+}
+
+.btnEl{
+    display: flex;
+    position: absolute;
+     margin-top: -30px;
+     margin-left: 290px;
+}
+.btnEl button{
+background-color:rgb(195, 144, 49);
+padding: 3px;
+border-color: antiquewhite;
+box-shadow: 3px 3px 3px;
+
+}
+
+.btnEl .El1{
+   margin-left:20px ;
+
+}
+.btnEl .El2{
+    margin-left: 510px;
+
+}
+.banner1 img{
+
+    width: 100%;
+ height: 350px;   
+
+}
+
+.buttEl{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 60px;
+
+    
+}
+.buttEl p{
+   width: 550px;
+   color: aliceblue;
+
+}
+.buttEl p h1{
+      font-size: 25px;
+    color: aliceblue;
+}
+
+.buttEl button{
+    border-radius: 6px;
+    padding: 8px;  
+    margin-top: 30px;
+}
+.buttEl .bt2{
+    margin-left: 80px;
+    border: none;
+    color: aliceblue;
+    
+    background-color: rgb(25, 193, 25);
+
+}
+.buttEl .bt2:hover{
+    box-shadow:3px 3px 3px;
+      color: black;
+}
+
+.buttEl .bt1{
+    border: none;
+    color: aliceblue;
+    background-color: rgb(58, 58, 132);
+
+}
+.buttEl .bt1:hover{
+
+    box-shadow:3px 3px 3px;
+       color:black;
+       background-color: rgb(183, 183, 222);
+
+}
+
+    .paragraph1{
+    position: absolute;
+      width: 85%;
+      height: 190px;
+      border:1px solid gray;
+        margin-left: 110px;
+        margin-top: -30px;
+    }
+.paragraph1 .wordslide {
+     height: 180px;
+    margin-top: -10px;
+}
+
+.paragraph1 .wordslide p{
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: 3px;
+    line-height: 25px;
+      margin-left: 0px;
+    margin-top: 50px;
+   text-align: center;
+   padding: 7px;
+}
+.test{
+    z-index: 1;
+
+    position: relative;
+    margin-left: 130px;
+    margin-top: 60px;
+    
+}
+
+
+.test  h1{
+    text-transform:capitalize;
+    width: 170px;
+    background-color:aliceblue;
+}
+
+.view1{
+
+    position: absolute;
+    margin-left: 1150px;
+    margin-top:180px;
+}
+
+.view1 button{
+    width: 90px;
+    padding: 5px;
+    background-color: darkcyan;
+    border: none;
+    font-size: 17px;
+}
+.view1 button a{
+   color: aliceblue;
+
+}
+.view1 button:hover{
+  cursor: pointer;
+
+}
+
+.backimg{
+    background-image: url("./images/banner8.webp");
+    margin:0 auto;
+    width:100%;
+    height: 250px;
+
+}
+.backimg h2{
+position: absolute;
+margin-top: 60px;
+line-height: 30px;
+ margin-left: 60px;
+ color:whitesmoke;
+    
+
+}
+.backimg h1{
+position: absolute;
+margin-top: 190px;
+margin-left: 60px;
+color:whitesmoke;
+
+}
+
+.company h1{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 60px;
+    color: rgb(89, 89, 223);
+}
+
+.company p{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 90%;
+    line-height: 24px;
+    margin-left: 60px;
+}
+
+.our{
+
+    width:99%;
+    height: 400px;
+    background-color:rgb(151, 151, 232);
+}
+.our h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: aliceblue;
+   position: absolute;
+    margin-left: 60px;
+     font-size: 30px;
+}
+
+.our p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 48%;
+    margin-left: 20px;
+    margin-top: 30px;
+   line-height: 25px;
+}
+.our p:hover{
+    cursor: pointer;
+    color: aliceblue;
+
+}
+
+.our input{
+    height: 27px;
+    margin-left: 10px;
+    margin-top: 80px;
+     text-align: center;
+     background-color: rgb(163, 163, 241);   
+}
+.our input:hover{
+   cursor: pointer;
+   border: none;
+}
+
+.ourbg{
+    position: absolute;
+    width: 30%;
+    height: 365px;
+    background-image:url("./images/radius.png");
+    background-repeat: no-repeat;
+    margin-left: 700px;
+    margin-top: -380px;
+}
+.team{
+    position: relative;
+    margin-left: 45px;
+}
+
+.face img{
+
+    margin-left: 40px;
+    
+  }
+ .face h3{
+  
+    margin-left: 90px;
+} 
+
+.face .h3{
+
+    margin-left: 110px;
+}
+    
+.facepara{
+    margin-left: 400px;
+    margin-top: -370px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1,750px);
+    
+}
+
+/* .facepara p{
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+} */
+.usestate button{  
+    margin-left: 590px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color:rgb(109, 164, 109);
+}
+.usestate button:hover{
+    cursor: pointer;
+    background-color:rgb(71, 222, 71);
+}
+
+.usestate p{
+    width: 400px;
+    line-height: 25px;
+    margin-left:430px;
+    height: 35px;
+    background-color: black;
+     color: aliceblue;
+     padding: 10px;
+}
+
+.footer{
+
+    width:100% ;
+    height:130px;
+    background-color: rgb(41, 34, 34);
+}
+
+.footer p{
+      position: absolute;
+    color: rgb(169, 164, 164);
+    line-height:23px;
+    margin-left: 80px;
+
+}
+
+.footerbg{
+
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -100px;
+
+}
+
+.footerbg .phone1{
+    color: rgb(169, 164, 164);
+
+}
+.FIT a{
+    color: rgb(169, 164, 164);
+
+}
+
+.footerpara{
+     position: absolute;
+     margin-left:872px;
+     margin-top: -80px;
+     color: rgb(169, 164, 164);
+     line-height:23px;
+    
+}
+
+     /* Requierment */
+  
+.containers{
+
+       display:grid;
+       grid-template-columns: repeat(2,500px);
+       margin-left: 190px;
+       margin-top: 30px;
+
+ }
+ 
+.listEl_1 ul .pEl_1{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(52, 138, 172);
+     height: 30px;
+     color: aliceblue;
+    display: grid;
+    align-items: center;
+}
+
+
+.listEl_2 ul .pEl_2{
+    color: aliceblue;
+
+    display: grid;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(52, 138, 172);
+     height: 30px;
+    
+}
+
+.listEl_1 ul .pEl_1:hover{
+
+    background-color: rgb(235, 106, 7);
+
+    cursor: pointer;
+    
+}
+.listEl_2 ul .pEl_2:hover{
+
+    background-color: rgb(235, 106, 7);
+    cursor: pointer;
+
+}
+
+.li h1{
+
+    font-size: 25px;
+    font-style: italic;
+}
+
+.li .desicion{
+  
+    width: 1050px;
+
+}
+
+
+.li1 .pEl_3{
+     display: grid;
+    font-weight: 600;
+    width: 500px;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(52, 138, 172);
+     height: 30px;
+     margin-left: 230px;
+}
+.li1 .Three_input{
+
+    margin-left: 390px;
+    
+}
+
+.Three_input input{
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.Three_input .Add{
+      width: 110px;
+      height: 40px;
+        background-color: rgb(52, 138, 172) ;
+       border: none;
+       border-radius: 10px;
+    }
+.Three_input .send{
+    background-color: rgb(8, 89, 8);
+    width:110px ;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+     border-radius: 10px;
+}
+
+.listEl_1 .li{
+
+    /* display: none; */
+
+}
+.dropdown button:nth-child(1):hover .list{
+
+}
+
+/* _______________________________________________________________________________________ */
+   /* @media */
+             /* Media query */
+
+@media (max-width:425px){
+
+    .container1{
+
+        display: flex;
+        width: 95%;
+        height: 15px;
+        justify-content: space-around;
+        font-size: 9px;
+        margin-left: 0px;
+        margin-top:70px ;
+    }
+    
+    .container1 li .li{
+          
+        color:black;
+    }
+    .container1 li .li:hover{
+        background-color: rgb(81, 181, 81);
+        padding: 5px;
+    }
+    
+    .img1{
+        width:50px;
+        position: absolute;
+        margin-left:40px ;
+        margin-top: -80px;
+    }
+.img1 img{
+
+    width:100px;
+    height: 50px;
+}
+
+      .FIT #fit{
+    
+         width: 30px;
+         height: 20px;
+    
+        }
+     
+     .FIT{
+           position: absolute;
+        margin-left: 100px;
+        margin-top: -10px;
+        display: flex;
+    
+    }
+  
+    .FIT #fit:hover{
+    cursor: pointer;
+    }
+    
+    .contact{
+        font-size: 10px;
+        position: absolute;
+        margin-left: 220px;
+         margin-top: -50px;
+    }   
+    .contact:hover{
+        cursor: pointer;
+    
+    }
+
+    .bg_slider{
+
+        width: 400px;
+        height: 200px;
+        background-image: url("images/banner1.jpg");
+    
+        animation: changeImage 15s linear infinite ;
+    }
+      
+    @keyframes changeImage{
+    
+    0%{
+    
+    background-image: url('images/banner1.jpg');
+    }
+    
+    50%{
+        background-image: url('images/banner2.jpg');
+    
+    }
+    
+    75%{
+    
+        background-image: url('images/banner3.jpg');
+    }
+    
+    100%{
+        background-image: url('images/banner1.jpg');
+    
+    }
+    }
+    .btn{
+
+        position: absolute;
+        margin-left: 150px;
+        margin-top: -42px;
+    }
+    
+    .btn button:hover{
+       
+        color:cornflowerblue;
+        cursor: pointer;
+        transform: scale(0.5,0.5);
+    
+    }
+    
+    .btn button{
+        margin-top:5px;
+        margin-left: -5px;
+        box-shadow:3px 3px 3px;
+        border-radius: 10px;
+        font-size: 13px;
+        width:110px ;
+        color: white;
+        border:1px solid black;
+        padding: 10px;
+        background-color: black;
+    
+    }
+    .dropdown button{
+        position:sticky;
+        padding: 5px;
+        border-radius: 10px;
+        border: none;
+        font-size: 10px;
+        position: absolute;
+        width: 80px;
+        height:25px;
+        background-color: red;
+        /* transform: rotate(90deg); */
+       margin-left: 260px;
+       margin-top: -210px;
+       
+    }
+    .dropdown button:hover{
+    
+        cursor: pointer;
+        background-color: violet;
+      
+    }
+
+    .list input{
+        width: 70px;
+    }
+    
+    
+    .list{
+        /* margin-left: 20px; */
+        display: none;
+    
+    }
+    .list .msg1{
+         font-size: 8px;
+    }
+    
+    .list .msg{
+        height: 10px;
+        font-size: 10px;
+        text-align:unset;
+    }
+    .dropdown button:nth-child(1):hover .list{
+        border-radius: 10px;
+        height: 142px;
+        background-color: black; 
+       margin-left: -30px;
+       color: white;
+        display: block;
+        padding: 10px;
+        margin-top: 13px;
+    
+        /* transform: rotate(-98deg); */
+    }
+    .dropdowns{
+    
+        margin-left: 200px;
+    }
+    
+    .welcome h1{
+       color: rgb(133, 133, 223);
+        text-align: center;
+        word-spacing: 6px;
+    }
+    .welcome p{
+        font-size: 10px;
+          width: 400px;
+        word-spacing: 1px;
+        line-height: 18px;
+     text-align: center;
+     margin-left: 10px;
+    margin-top: -10px;
+    }
+    
+    .grid{
+        justify-content: center;
+        margin-top: 20px;
+        background-color: rgb(36, 36, 128);
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1,290px);
+    }
+    
+    .grid p{
+        color: aliceblue;
+        line-height: 15px;
+    }
+    
+    .btnEl{
+        display: flex;      
+        position: absolute;
+         margin-top: -560px;
+         margin-left: 220px;
+    }
+    .btnEl button{
+    background-color:rgb(195, 144, 49);
+    padding: 3px;
+    border-color: antiquewhite;
+    box-shadow: 3px 3px 3px;
+    
+    }
+    
+    .btnEl .El1{
+        transition: 3s;
+        transform: translateY(418px);
+       margin-left:60px ;
+    
+    }
+    .btnEl .El2{
+       display: none;
+        margin-left: 10px;
+    }
+       
+.banner1 img{
+
+    width: 100%;
+ height: 250px;   
+
+}
+.buttEl{
+    width: 90%;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 30px;
+
+    
+}
+.buttEl p{
+      font-size:12px;
+    width: 90%;
+   color:black;
+
+}
+.buttEl p h1{
+      font-size: 15px;
+    color: black;
+}
+
+.buttEl button{
+    font-size: 10px;
+    border-radius: 6px;
+    padding: 4px;  
+    margin-top: 30px;
+}
+.buttEl .bt2{
+    margin-left: 50px;
+    border: none;
+    color: aliceblue;
+    
+    background-color: rgb(25, 193, 25);
+
+}
+.buttEl .bt2:hover{
+    box-shadow:3px 3px 3px;
+      color: black;
+}
+
+.buttEl .bt1{
+    border: none;
+    color: aliceblue;
+    background-color: rgb(58, 58, 132);
+
+}
+.buttEl .bt1:hover{
+
+    box-shadow:3px 3px 3px;
+       color:black;
+       background-color: rgb(183, 183, 222);
+
+}
+
+
+.paragraph1{
+    position: absolute;
+      width: 85%;
+      height: 160px;
+      border:1px solid gray;
+        margin-left: 30px;
+        margin-top: -22px;
+    }
+.paragraph1 .wordslide {
+     height: 180px;
+    margin-top: -10px;
+}
+
+.paragraph1 .wordslide p{
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: 3px;
+    line-height: 25px;
+      margin-left: 0px;
+    margin-top: 50px;
+   text-align: center;
+   padding: 7px;
+}
+.test{
+    z-index: 1;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+
+.test  h1{
+    font-size: 24px;
+    text-transform:capitalize;
+    width: 130px;
+    background-color:aliceblue;
+}
+
+.view1{
+
+    position: absolute;
+    margin-left:300px;
+    margin-top:150px;
+}
+
+.view1 button{
+    width: 60px;
+    padding: 5px;
+    background-color: darkcyan;
+    border: none;
+    font-size: 13px;
+}
+.view1 button a{
+   color: aliceblue;
+
+}
+.view1 button:hover{
+  cursor: pointer;
+
+}
+
+.backimg{
+    background-image: url("./images/banner8.webp");
+    margin:0 auto;
+    width:90%;
+    height: 150px;
+
+}
+.backimg h2{
+    font-size: 16px;
+position: absolute;
+margin-top: 30px;
+line-height: 15px;
+ margin-left: 30px;
+ color:whitesmoke;
+    
+
+}
+.backimg h1{
+    font-size: 16px;
+position: absolute;
+margin-top: 100px;
+margin-left: 30px;
+color:whitesmoke;
+
+}
+
+.company h1{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left:50px;
+    color: rgb(89, 89, 223);
+}
+
+.company p{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    line-height: 20px;
+    margin-left: 50px;
+    font-size: 10px;
+}
+
+.our{
+
+    width:99%;
+    height: 200px;
+    background-color:rgb(151, 151, 232);
+}
+.our h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: aliceblue;
+   position: absolute;
+    margin-left: 48px;
+     font-size: 15px;
+}
+
+.our p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 47%;
+    margin-left: 40px;
+    margin-top: 10px;
+   line-height: 15px;
+   font-size: 10px;
+}
+.our p:hover{
+    cursor: pointer;
+    color: aliceblue;
+
+}
+
+.our input{
+    height: 13px;
+    width:40px;
+    margin-left: 38px;
+    margin-top: 60px;
+     text-align: center;
+     background-color: rgb(163, 163, 241);   
+}
+.our input:hover{
+   cursor: pointer;
+   border: none;
+}
+
+
+
+.ourbg{
+    display: none;
+    position: absolute;
+    width: 35%;
+    height: 75px;
+    background-image:url("./images/radius.png");
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: -180px;
+}
+
+.team{
+    text-decoration: underline;
+    position: relative;
+    margin-left: 145px;
+    line-height: 30px;
+}
+.team h1{
+
+    font-size:16px;
+}
+.face img{
+
+    margin-left: 70px;
+    
+}
+ .face h3{
+  
+    margin-left: 130px;
+} 
+
+.face .h3{
+
+    margin-left: 150px;
+}
+    
+.facepara{
+    margin-left: 38px;
+    margin-top: -10px;
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: repeat(1,350px);    
+}
+
+.facepara p{
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 12px;
+}
+#face1{
+
+    margin-top: 350px;
+}
+.usestate{
+    position: absolute;
+    margin-top: 1000px;
+}
+
+.usestate button{
+     position: absolute;
+    font-size: 12px;
+    /* margin-left: 590px; */
+    width: 50px;
+    height: 20px;
+    border: none;
+    z-index: 1;
+     margin-left: 170px;
+    margin-top: 10px;
+    background-color:rgb(109, 164, 109);
+}
+.usestate button:hover{
+    cursor: pointer;
+    background-color:rgb(71, 222, 71);
+}
+
+.usestate p{
+    position: absolute;
+    width: 300px;
+    line-height: 25px;
+    margin-left:40px;
+    height: 15px;
+    margin-top: 50px;
+    background-color: black;
+     color: aliceblue;
+     padding: 10px;
+}
+
+
+
+.footer{
+    margin-top: 450px;
+    width:100% ;
+    height:130px;
+    background-color: rgb(41, 34, 34);
+}
+
+.footer p{
+       font-size: 9px;
+      position: absolute;
+    color: rgb(169, 164, 164);
+    line-height:15px;
+    margin-left:10px;
+
+}
+
+.footerbg{
+
+    position: absolute;
+    margin-left: 1025px;
+    margin-top: -120px;
+
+}
+
+.footerbg .phone1{
+    font-size: 10px;
+    margin-left:-800px;
+    color: rgb(169, 164, 164);
+
+}
+.FIT{
+
+    margin-left: -700px;
+}
+.FIT a{
+        font-size:10px ;
+    color: rgb(169, 164, 164);
+
+}
+
+.footerpara{
+     position: absolute;
+     margin-left:220px;
+     margin-top: -100px;
+     color: rgb(169, 164, 164);
+     line-height:23px;
+    
+}
+
+.footerpara p{
+    width: 200px;
+    line-height: 15px;
+    font-size: 10px;
+
+}
+
+
+}
